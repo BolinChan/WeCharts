@@ -1,0 +1,42 @@
+{
+    "expo": {
+        "name": "WeChats",
+        "description": "",
+        "slug": "WeChats",
+        "sdkVersion": "32.0.0",
+        "platforms": [
+            "ios",
+            "android"
+        ],
+        "version": "1.0.0",
+        "orientation": "portrait",
+        "icon": "./assets/icon.png",
+        "splash": {
+            "image": "./assets/splash.png",
+            "resizeMode": "contain",
+            "backgroundColor": "#FFFFFF"
+        },
+        "updates": {
+            "fallbackToCacheTimeout": 0
+        },
+        "assetBundlePatterns": [
+            "**/*"
+        ],
+        "ios": {
+            "bundleIdentifier": "com.yunbei.wechats",
+            "supportsTablet": true,
+            "infoPlist": {
+                "NSPhotoLibraryUsageDescription": "访问相册",
+                "NSPhotoLibraryAddUsageDescription": "访问相册",
+                "NSAllowsArbitraryLoads": true
+            }
+        },
+        "android": {
+            "package": "com.yunbei.wechats"
+        },
+        "androidStatusBar": {
+            "barStyle": "dark-content",
+            "backgroundColor": "#FFFFFF"
+        }
+    }
+}
